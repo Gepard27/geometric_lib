@@ -18,10 +18,10 @@ jobs:
       - name: "Checkout code"
         uses: actions/checkout@v4.2.2
 
-      - name: "Switch to testing branch"
+      - name: "Switch to new_features_465725 branch"
         run: |
-          git fetch origin testing_465725
-          git checkout testing_465725
+          git fetch origin new_features_465725
+          git checkout new_features_465725
 
       - name: "Set up Python"
         uses: actions/setup-python@v5.3.0
