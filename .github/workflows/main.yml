@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4.2.2
 
       - name: "Check test branch"
-        run: git fetch origin testing_465194 && git checkout testing_465194
+        run: git fetch origin testing_465725 && git checkout testing_465725
 
       - name: "Install the latest version of Python"
         uses: actions/setup-python@v5.3.0
